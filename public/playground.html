@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/aos.css" rel="stylesheet">
+    <link href="fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+</head>
+<body class="w-screen overflow-x-hidden">
+    <!-- nav -->
+    <nav class=" max-w-7xl mx-auto   bg-none">
+        <div class="flex items-center justify-between p-2 md:p-2 ">
+            <div class="font-bold ">
+                BYFaith
+            </div>
+            <div id="sidenav" class="flex-grow transition-all duration-200 p-3 md:p-0 fixed md:relative h-screen md:h-auto bg-white shadow-md md:shadow-none -left-72 md:left-0 top-0 space-y-4 md:flex  w-72">
+                <div class="flex md:items-center justify-center md:flex-row flex-col  flex-grow ">
+                    <!-- close toggle -->
+                    <div class="w-full md:hidden rounded-md cursor-pointer text-right text-3xl font-semibold text-blue-600" id="toggle">x</div>
+                    <div class="pt-4 pb-12 md:hidden">
+                    BYFaith
+                    </div>
+                    <div class="relative group cursor-pointer overflow-hidden py-2">
+                        <a href="#" class="hover:text-blue-500 md:px-6 group-hover:text-blue-500">Home</a>
+                        <div class="absolute w-full h-[1px] bg-blue-400 -bottom-3 group-hover:bottom-0"></div>
+                    </div>
+                    <div class="relative group cursor-pointer overflow-hidden py-2">
+                        <a href="#" class="hover:text-blue-500 md:px-6 group-hover:text-blue-500 ">About</a>
+                        <div class="absolute w-full h-[1px] bg-blue-400 -bottom-3 group-hover:bottom-0"></div>
+                    </div>
+                    <div class="relative group cursor-pointer overflow-hidden py-2">
+                        <a href="#" class="hover:text-blue-500 md:px-6 group-hover:text-blue-500">Contact</a>
+                        <div class="absolute w-full h-[1px] bg-blue-400 -bottom-3 group-hover:bottom-0"></div>
+                    </div>
+                    <div class="relative group cursor-pointer overflow-hidden py-2">
+                        <a href="#" class="hover:text-blue-500 md:px-6 group-hover:text-blue-500">Service</a>
+                        <div class="absolute w-full h-[1px] bg-blue-400 -bottom-3 group-hover:bottom-0"></div>
+                    </div>
+                </div>
+                <button class="px-3 py-1 w-full md:w-auto relative bottom-1 shadow-md rounded-md bg-blue-500 hover:bg-blue-600 text-white  md:flex">
+                    <a href="#">Login</a>
+                </button>
+            </div>
+            <!-- toggle button -->
+            <div class="w-8 h-8 md:hidden rounded-md cursor-pointer bg-blue-600" id="toggle"></div>
+        </div>
+   </nav>
+   <!-- banner -->
+   <div class="bg-[url('./img/banner.jpg')] bg-cover">
+        <div class="max-w-7xl  mx-auto grid md:grid-cols-2 grid-cols-1  h-screen ">
+            <div class=" col-span-1 lg:px-1 md:px-2 px-3 mt-32  text-white">
+                <h1 class="font-bold text-lg uppercase tracking-wide">
+                    WELCOME TO BYFAITH CHURCH
+                </h1>
+                <div class="font-bold md:text-6xl text-5xl  mt-8 ">
+                    Oh Safe To the Rock That Is Higher Than I
+                </div>
+                <h4 class="font-bold text-lg mt-8">
+                    Far far away, behind the word mountains,
+                    far from the countries Vokalia and Consonantia,
+                    there live the blind texts.
+                </h4>
+                <button class="px-5 py-5 rounded-full font-bold shadow-lg mt-5 text-xs text-white bg-blue-600 hover:bg-blue-500">GO TO SERMONS</button>
+                <div class=" col-span-1 text-white">
+                
+                </div>
+            </div>
+        </div>
+   </div>
+        
+
+   <!-- About us -->
+   <div class=" max-w-7xl  mx-auto grid md:grid-cols-2 grid-rows-1 mt-32 ">
+        <div class="px-6 md:pl-6 col-span-1" data-aos="fade-left" data-aos-duration="1000">
+            <h6 class="font-bold text-blue-600 text-lg mb-6">ABOUT US ..</h6>
+            
+            <h2 class="text-6xl font-bold ">
+                Living and <br>
+                Sharing <br>
+                The Gospel
+            </h2>
+
+            <p class="mt-6 text-gray-500">
+                Far far away, behind the word mountains,
+                far from the countries Vokalia and Consonantia, 
+                there live the blind texts.
+            </p>
+            <p class="text-gray-500 mt-3">
+                A small river named Duden flows by their place and 
+                supplies it with the necessary regelialia. It is a 
+                paradisematic country, in which roasted parts of
+                sentences fly into your mouth.
+            </p>
+            <div class="mt-6 mb-10">
+                <button class="px-5 py-5 rounded-full font-bold shadow-lg  text-xs text-white bg-blue-600 hover:bg-blue-500">
+                KNOW MORE ABOUT US
+                </button>
+            </div>
+        </div>
+        <div class="col-span-1" data-aos="zoom-in-down" data-aos-duration="1000">
+            <img src="img/bible.webp" alt="" srcset="">
+        </div>
+    </div>
+
+    <!-- SERMONS -->
+
+    <section class="max-w-7xl px-4 mx-auto text-center mt-32 ">
+        <h4 class="text-lg font-bold text-blue-600" data-aos="zoom-in" data-aos-duration="1000">
+            SERMONS
+        </h4>
+        <h2 class="font-bold text-5xl mt-6">
+            Recent Sermons
+        </h2>
+        <div class="grid md:grid-cols-3 sm:grid-cols-2 items-center mb-52 mt-10 gap-5">
+            <!-- card 1 -->
+            <div class="col-span-1  shadow-lg hover:shadow-2xl  rounded-lg" data-aos="fade-up" data-aos-duration="1000">
+                <img src="img/pray.webp" alt="" srcset="" class="w-full rounded-t-lg ">
+                <div class="    p-4 text-justify tracking-tight rounded-t-3xl ">
+                    <div class="text-sm py-3 font-bold text-gray-500 ">
+                        15 Jan 2020 . By Pastor Campbell
+                    </div>
+
+                    <div class="text-2xl mb-4 font-semibold ">
+                        Living and Sharing The Gospel
+                    </div>
+                    <p class="">
+                        Far far away, behind the word mountains,
+                         far from the countries Vokalia and Consonantia
+                    </p>
+                </div>
+                <div class="mt-2 mb-10 items-start">
+                    <button class="px-5 py-3 rounded-full font-bold shadow-lg  text-xs text-white bg-blue-600 hover:bg-blue-500">
+                    READ MORE
+                    </button>
+                </div>
+            </div>
+
+             <!-- card 2 -->
+            <div class="col-span-1  shadow-lg hover:shadow-2xl rounded-lg" data-aos="fade-down" data-aos-duration="1000">
+                <img src="img/praise.webp" alt="" srcset="" class=" w-full  rounded-t-lg ">
+                <div class="    p-4 text-justify tracking-tight rounded-t-3xl ">
+                    <div class="text-sm py-3 font-bold text-gray-500 ">
+                        15 Jan 2020 . By Pastor Campbell
+                    </div>
+
+                    <div class="text-2xl mb-4 font-semibold ">
+                        Living and Sharing The Gospel
+                    </div>
+                    <p class="">
+                        Far far away, behind the word mountains,
+                         far from the countries Vokalia and Consonantia
+                    </p>
+                </div>
+                <div class="mt-2 mb-10 items-start">
+                    <button class="px-5 py-3 rounded-full font-bold shadow-lg  text-xs text-white bg-blue-600 hover:bg-blue-500">
+                    READ MORE
+                    </button>
+                </div>
+            </div>
+
+             <!-- card 3 -->
+            <div class="col-span-1  shadow-lg hover:shadow-2xl rounded-lg" data-aos="fade-up" data-aos-duration="1000">
+                <img src="img/prais.webp" alt="" srcset="" class="w-full    rounded-t-lg">
+                <div class="    p-4 text-justify tracking-tight rounded-t-3xl ">
+                    <div class="text-sm py-3 font-bold text-gray-500 ">
+                        15 Jan 2020 . By Pastor Campbell
+                    </div>
+
+                    <div class="text-2xl mb-4 font-semibold ">
+                        Living and Sharing The Gospel
+                    </div>
+                    <p class="">
+                        Far far away, behind the word mountains,
+                         far from the countries Vokalia and Consonantia
+                    </p>
+                </div>
+                <div class="mt-2 mb-10 items-start">
+                    <button class="px-5 py-3 rounded-full font-bold shadow-lg  text-xs text-white bg-blue-600 hover:bg-blue-500">
+                    READ MORE
+                    </button>
+                </div>
+            </div>   
+        </div>
+    </section>
+
+    <!-- why us -->
+    <section class=" bg-gray-700 p-32">
+        <div class="max-w-7xl px-4 mx-auto grid grid-cols-1 md:gap-x-40 gap-x-20 lg:grid-cols-2 ">
+            <div class="col-span-1">
+                <h2 class="text-md font-bold text-blue-600">WHY US</h2>
+                <h3 class="md:text-5xl text-3xl font-bold text-white mt-6">
+                    You matter to God, you matter to us.
+                </h3>
+                <img src="img/pray.webp" alt="" class="mt-10 w-full" srcset="">
+            </div>
+            <div class=" pt-12  col-span-1">
+                <p class="text-white mb-28">
+                    Far far away, behind the word mountains, far from the 
+                    countries Vokalia and Consonantia, there live the blind texts. 
+                    Separated they live in Bookmarksgrove right at the coast of the
+                     Semantics, a large language ocean.
+                </p>
+                <div class="grid grid-cols-1 gap-x-10 gap-y-9 md:grid-col-4 lg:grid-cols-2">
+                    <!-- col 1 -->
+                    <div class="col-span-1   text-c text-white">
+                        <h4 class="font-bold mb-2 text-xs">
+                            PEACE WITH GOD
+                        </h4>
+                        <p class="text-gray-400 font-semibold text-justify">
+                            Far far away, behind the word mountains, 
+                            far from the countries Vokalia and Consonantia.
+                        </p>
+                    </div>
+                    
+                    <!-- col 2 -->
+                    <div class="col-span-1   text-c text-white">
+                        <h4 class="font-bold mb-2 text-xs">
+                            RELATIONSHIP FOR THE SOUL
+                        </h4>
+                        <p class="text-gray-400 font-semibold text-justify">
+                            Far far away, behind the word mountains, 
+                            far from the countries Vokalia and Consonantia.
+                        </p>
+                    </div>
+
+                    <!-- col 3 -->
+                    <div class="col-span-1   text-c text-white">
+                        <h4 class="font-bold mb-2 text-xs">
+                            IDENTIFYING LIMITATIONS
+                        </h4>
+                        <p class="text-gray-400 font-semibold text-justify">
+                            Far far away, behind the word mountains, 
+                            far from the countries Vokalia and Consonantia.
+                        </p>
+                    </div>
+
+                    <!-- col 4 -->
+                    <div class="col-span-1   text-c text-white">
+                        <h4 class="font-bold mb-2 text-xs">
+                            HIS KINGDOM
+                        </h4>
+                        <p class="text-gray-400 font-semibold text-justify">
+                            Far far away, behind the word mountains, 
+                            far from the countries Vokalia and Consonantia.
+                        </p>
+                    </div>
+                </div>
+                <div class="mt-8  items-start">
+                    <button class="px-5 py-3 rounded-full font-bold shadow-lg  text-xs text-white bg-blue-600 hover:bg-blue-500">
+                        SEND US YOUR PRAYER REQUEST
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimony -->
+
+    <section class="bg-slate-100 pt-28  ">
+        <div class="  text-center ">
+            <h1 class=" text-blue-600 font-bold">
+                TESTIMONIALS
+            </h1>
+            <h3 class="md:text-5xl text-2xl tracking-tight font-bold  mt-6 mb-16">
+                Living Testimonies
+            </h3>
+            <div class="  your-class ">
+                <!-- slider 1 -->
+                <div class="p-12 ">
+                    <div class="col-span-1 bg-white shadow-red-700  py-8 px-5 ">
+                        <h3 class="font-bold text-lg">
+                            Far far away, behind the word mountains
+                        </h3>
+                        <p class="py-5 font-semibold text-gray-800 text-balance">
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                             there live the blind texts. Separated they live in Bookmarksgrove right at the coast of 
+                             the Semantics, a large language ocean.
+                        </p>
+                        <img src="img/jenny.jpg" alt="" srcset="" class="w-12 h-12 rounded-full m-auto">
+                        <h3 class="font-bold ">James Campbell</h3>
+                        <h4 class="gray-300">Person</h4>
+                    </div>
+                </div>
+                
+                <!-- slider 2 -->
+                <div class="p-12">
+                    <div class="col-span-1 bg-white shadow-red-700  py-8 px-5 ">
+                        <h3 class="font-bold text-lg">
+                            Far far away, behind the word mountains
+                        </h3>
+                        <p class="py-5 font-semibold text-gray-800 text-balance">
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                             there live the blind texts. Separated they live in Bookmarksgrove right at the coast of 
+                             the Semantics, a large language ocean.
+                        </p>
+                        <img src="img/jenny.jpg" alt="" srcset="" class="w-12 h-12 rounded-full m-auto">
+                        <h3 class="font-bold ">James Campbell</h3>
+                        <h4 class="gray-300">Person</h4>
+                    </div>
+                </div>
+                <!-- slider 3 -->
+                <div class="p-12">
+                    <div class="col-span-1 bg-white shadow-red-700  py-8 px-5 ">
+                        <h3 class="font-bold text-lg">
+                            Far far away, behind the word mountains
+                        </h3>
+                        <p class="py-5 font-semibold text-gray-800 text-balance">
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                             there live the blind texts. Separated they live in Bookmarksgrove right at the coast of 
+                             the Semantics, a large language ocean.
+                        </p>
+                        <img src="img/jenny.jpg" alt="" srcset="" class="w-12 h-12 rounded-full m-auto">
+                        <h3 class="font-bold ">James Campbell</h3>
+                        <h4 class="gray-300">Person</h4>
+                    </div>
+                </div>
+                <div class="p-12">
+                    <div class="col-span-1 bg-white shadow-red-700  py-8 px-5 ">
+                        <h3 class="font-bold text-lg">
+                            Far far away, behind the word mountains
+                        </h3>
+                        <p class="py-5 font-semibold text-gray-800 text-balance">
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                             there live the blind texts. Separated they live in Bookmarksgrove right at the coast of 
+                             the Semantics, a large language ocean.
+                        </p>
+                        <img src="img/jenny.jpg" alt="" srcset="" class="w-12 h-12 rounded-full m-auto">
+                        <h3 class="font-bold ">James Campbell</h3>
+                        <h4 class="gray-300">Person</h4>
+                    </div>
+                </div>
+            </div>
+           <div class="mt-20">
+                <button class="text-white bg-blue-300 px-7 py-1 rounded-full ">Prev</button>
+                <button class="text-white bg-blue-600 px-7 py-1 rounded-full">Next</button>
+           </div>
+           <div class="mt-2 mb-28">
+                <input class=" w-2 h-2 bg-blue-600 " type="radio" name="" id="">
+                <input class=" w-2 h-2" type="radio" name="" id="">
+                <input class=" w-2 h-2" type="radio" name="" id="">
+                <input class=" w-2 h-2" type="radio" name="" id="">
+                <input class=" w-2 h-2" type="radio" name="" id="">
+           </div>
+        </div>
+        <!-- our service -->
+       <section class="relative z-50 -mb-12 ">
+            <div class="max-w-6xl text-center mx-auto py-32 px-28 bg-white">
+                <h2 class="text-blue-600 font-bold">OUR SERVICES</h2>
+                <h3 class="font-bold md:text-5xl text-2xl tracking-tight mt-5">Church Services</h3>
+                <div class="grid  md:grid-cols-3 gap-x-12 gap-y-8 sm:grid-cols-2 mt-28">
+                    <!-- card1 -->
+                    <div class="col-span-1">
+                    <div class="font-bold text-5xl text-blue-600"><i class="ri-command-line"></i></div>
+                    <h3 class="text-xl my-4 font-bold">Praise and Worship</h3>
+                    <p class="text-gray-500">
+                        Far far away, behind the word mountains,
+                        far from the countries Vokalia and Consonantia, 
+                        there live the blind texts.
+                    </p>
+                    <div class=" text-md tracking-wide font-bold">
+                        <a class=" text-blue-600 hover:text-blue-800" href="#">+Read more</a>
+                    </div>
+                    </div>
+
+                    <!-- card2 -->
+                    <div class="col-span-1">
+                        <div class="font-bold text-5xl text-blue-600">Y</div>
+                        <h3 class="text-xl my-4 font-bold">Praise and Worship</h3>
+                        <p class="text-gray-500">
+                            Far far away, behind the word mountains,
+                            far from the countries Vokalia and Consonantia, 
+                            there live the blind texts.
+                        </p>
+                        <div class=" text-md tracking-wide font-bold">
+                            <a class="text-blue-600 hover:text-blue-800" href="#">+Read more</a>
+                        </div>
+                    </div>
+                
+                        <!-- card3 -->
+                    <div class="col-span-1">
+                        <div class="font-bold text-5xl text-blue-600">Y</div>
+                        <h3 class="text-xl my-4 font-bold">Praise and Worship</h3>
+                        <p class="text-gray-500">
+                        Far far away, behind the word mountains,
+                        far from the countries Vokalia and Consonantia, 
+                        there live the blind texts.
+                        </p>
+                    <div class=" text-md tracking-wide font-bold">
+                        <a class="text-blue-600 hover:text-blue-800" href="#">+Read more</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+  
+          <!-- join us -->
+        <section class="bg-gray-800 relative z-0 ">
+            <div class=" grid md:grid-cols-2 gap-x-5 gap-y-8 sm:grid-cols-1 py-32 px-20">
+                <div class="col-span-1">
+                    <h1 class="md:text-5xl text-4xl  text-white font-bold">
+                        Join with us as we worship the Lord
+                    </h1>
+                </div>
+                <div class="col-span-1 md:text-end sm:text-center">
+                        <button class="  px-8 py-3 rounded-full font-bold shadow-lg  text-SM text-white bg-blue-600 hover:bg-white hover:text-blue-600">
+                            JOIN US
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="bg-green-200 px-20 pt-20 pb-10 ">
+        <div class="grid md:grid-cols-3 grid-cols-1">
+            <div class="col-span-1">
+                <h3 class="mb-3 font-bold text-xs">
+                    CONTACT
+                </h3>
+                <h3 class="text-gray-600 ">
+                    43 Raymouth Rd. Baltemoer, London 3910
+                </h3>
+               <ul class="py-6 text-gray-600  ">
+                    <li class=" cursor-pointer group w-fit group-hover:bottom-1">
+                        +1(123)-456-7890
+                        <div class=" w-full h-[2px] hover:bg-blue-400 group-hover:bottom-0"></div>
+                    </li>
+
+                    <li class=" cursor-pointer transition-all duration-200 my-6  hover:border-b-2 hover:border-blue-600">
+                        +1(123)-456-7890
+                    </li>
+
+                    <li class=" cursor-pointer transition-all  duration-200  hover:border-b-2 hover:border-blue-600">
+                        info@mydomain.com
+                    </li>
+               </ul>
+            </div>
+            <div class="col-span-1">
+                s
+            </div>
+            <div class="col-span-1">
+                d
+            </div>
+
+        </div>
+    </section>
+   
+
+    <script src="js/jquery.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/aos.js"></script>
+</body> 
+
+
+
+
+<script>
+     AOS.init();
+    // let btn = document.getElementById("toggle")
+    // let sidenav = document.getElementById("sidenav")
+    // btn.addEventListener("click",function () {
+    //    sidenav.classList.toggle("-left-72")
+    //    sidenav.classList.toggle("left-0")
+    // });
+
+   
+    $("#toggle").on("click",()=>{
+        $("#sidenav").toggleClass("-left-72 left-0")
+    })
+    // -left-72
+</script>
+
+<script type="text/javascript">
+   $('.your-class').slick({
+  centerMode: true,
+  centerPadding: '60px',
+  slidesToShow: 2,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+  </script>
+</html>
